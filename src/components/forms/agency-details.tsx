@@ -27,6 +27,10 @@ import FileUpload from '../global/file-upload';
 import { Input } from '../ui/input';
 import { Switch } from '../ui/switch';
 import { NumberInput } from '@tremor/react';
+import {
+  saveActivityLogsNotification,
+  updateAgencyDetails,
+} from '@/lib/queries';
 
 type Props = {
   data?: Partial<Agency>;
